@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C61773AC-4888-4EFC-867F-1AF9E58F6312}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Application.Base</RootNamespace>
+    <AssemblyName>jmsep</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="JManagmentStudioEditPageViewModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Application.Data.Firebird\Application.Data.Firebird.csproj">
+      <Project>{E97EE272-310A-4333-BE5E-7BCF3E10096F}</Project>
+      <Name>Application.Data.Firebird</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Application.Data.MSAccess\Application.Data.Access.csproj">
+      <Project>{5EE224C5-6028-4952-B85C-CC0D82FB4A7E}</Project>
+      <Name>Application.Data.Access</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Application.Data.Msde\Application.Data.Msde.csproj">
+      <Project>{27ED18B6-D553-4E2A-A976-6F54EA91CEBB}</Project>
+      <Name>Application.Data.Msde</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Application.Settings\Application.Settings.csproj">
+      <Project>{57D02195-250A-4274-AE46-0233B9B103CB}</Project>
+      <Name>Application.Settings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Application.ViewModel\Application.Base.csproj">
+      <Project>{7177490f-39cf-4891-ae27-cc04a66e29cf}</Project>
+      <Name>Application.Base</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

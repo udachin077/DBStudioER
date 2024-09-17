@@ -1,0 +1,12 @@
+D:\source\repos\DbStuduoER\Application.ViewModel\bin\Release\base.dll
+D:\source\repos\DbStuduoER\Application.ViewModel\bin\Release\base.pdb
+D:\source\repos\DbStuduoER\Application.ViewModel\bin\Release\Microsoft.WindowsAPICodePack.dll
+D:\source\repos\DbStuduoER\Application.ViewModel\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll
+D:\source\repos\DbStuduoER\Application.ViewModel\bin\Release\settings.dll
+D:\source\repos\DbStuduoER\Application.ViewModel\bin\Release\settings.pdb
+D:\source\repos\DbStuduoER\Application.ViewModel\bin\Release\Microsoft.WindowsAPICodePack.xml
+D:\source\repos\DbStuduoER\Application.ViewModel\bin\Release\Microsoft.WindowsAPICodePack.Shell.xml
+D:\source\repos\DbStuduoER\Application.ViewModel\obj\Release\Application.Base.csprojAssemblyReference.cache
+D:\source\repos\DbStuduoER\Application.ViewModel\obj\Release\Application.Base.csproj.CopyComplete
+D:\source\repos\DbStuduoER\Application.ViewModel\obj\Release\base.dll
+D:\source\repos\DbStuduoER\Application.ViewModel\obj\Release\base.pdb

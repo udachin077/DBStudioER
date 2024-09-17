@@ -1,0 +1,36 @@
+D:\source\repos\DbStuduo\Application.ViewModel\bin\Debug\base.dll
+D:\source\repos\DbStuduo\Application.ViewModel\bin\Debug\base.pdb
+D:\source\repos\DbStuduo\Application.ViewModel\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\source\repos\DbStuduo\Application.ViewModel\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\source\repos\DbStuduo\Application.ViewModel\bin\Debug\settings.dll
+D:\source\repos\DbStuduo\Application.ViewModel\bin\Debug\settings.pdb
+D:\source\repos\DbStuduo\Application.ViewModel\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\source\repos\DbStuduo\Application.ViewModel\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\source\repos\DbStuduo\Application.ViewModel\obj\Debug\Application.Base.csprojAssemblyReference.cache
+D:\source\repos\DbStuduo\Application.ViewModel\obj\Debug\Application.Base.csproj.CopyComplete
+D:\source\repos\DbStuduo\Application.ViewModel\obj\Debug\base.dll
+D:\source\repos\DbStuduo\Application.ViewModel\obj\Debug\base.pdb
+D:\source\repos\DbStuduo — копия\Application.ViewModel\bin\Debug\base.dll
+D:\source\repos\DbStuduo — копия\Application.ViewModel\bin\Debug\base.pdb
+D:\source\repos\DbStuduo — копия\Application.ViewModel\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\source\repos\DbStuduo — копия\Application.ViewModel\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\source\repos\DbStuduo — копия\Application.ViewModel\bin\Debug\settings.dll
+D:\source\repos\DbStuduo — копия\Application.ViewModel\bin\Debug\settings.pdb
+D:\source\repos\DbStuduo — копия\Application.ViewModel\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\source\repos\DbStuduo — копия\Application.ViewModel\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\source\repos\DbStuduo — копия\Application.ViewModel\obj\Debug\Application.Base.csprojAssemblyReference.cache
+D:\source\repos\DbStuduo — копия\Application.ViewModel\obj\Debug\Application.Base.csproj.CopyComplete
+D:\source\repos\DbStuduo — копия\Application.ViewModel\obj\Debug\base.dll
+D:\source\repos\DbStuduo — копия\Application.ViewModel\obj\Debug\base.pdb
+D:\source\repos\DbStuduoER\Application.ViewModel\bin\Debug\base.dll
+D:\source\repos\DbStuduoER\Application.ViewModel\bin\Debug\base.pdb
+D:\source\repos\DbStuduoER\Application.ViewModel\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\source\repos\DbStuduoER\Application.ViewModel\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\source\repos\DbStuduoER\Application.ViewModel\bin\Debug\settings.dll
+D:\source\repos\DbStuduoER\Application.ViewModel\bin\Debug\settings.pdb
+D:\source\repos\DbStuduoER\Application.ViewModel\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\source\repos\DbStuduoER\Application.ViewModel\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\source\repos\DbStuduoER\Application.ViewModel\obj\Debug\Application.Base.csprojAssemblyReference.cache
+D:\source\repos\DbStuduoER\Application.ViewModel\obj\Debug\Application.Base.csproj.CopyComplete
+D:\source\repos\DbStuduoER\Application.ViewModel\obj\Debug\base.dll
+D:\source\repos\DbStuduoER\Application.ViewModel\obj\Debug\base.pdb
