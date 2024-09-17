@@ -1,0 +1,14 @@
+D:\source\repos\DbStuduoER\Data.MSAccess\bin\Release\Access.dll
+D:\source\repos\DbStuduoER\Data.MSAccess\bin\Release\Access.pdb
+D:\source\repos\DbStuduoER\Data.MSAccess\bin\Release\base.dll
+D:\source\repos\DbStuduoER\Data.MSAccess\bin\Release\settings.dll
+D:\source\repos\DbStuduoER\Data.MSAccess\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll
+D:\source\repos\DbStuduoER\Data.MSAccess\bin\Release\Microsoft.WindowsAPICodePack.dll
+D:\source\repos\DbStuduoER\Data.MSAccess\bin\Release\base.pdb
+D:\source\repos\DbStuduoER\Data.MSAccess\bin\Release\settings.pdb
+D:\source\repos\DbStuduoER\Data.MSAccess\bin\Release\Microsoft.WindowsAPICodePack.Shell.xml
+D:\source\repos\DbStuduoER\Data.MSAccess\bin\Release\Microsoft.WindowsAPICodePack.xml
+D:\source\repos\DbStuduoER\Data.MSAccess\obj\Release\Data.Access.csprojAssemblyReference.cache
+D:\source\repos\DbStuduoER\Data.MSAccess\obj\Release\Data.Access.csproj.CopyComplete
+D:\source\repos\DbStuduoER\Data.MSAccess\obj\Release\Access.dll
+D:\source\repos\DbStuduoER\Data.MSAccess\obj\Release\Access.pdb

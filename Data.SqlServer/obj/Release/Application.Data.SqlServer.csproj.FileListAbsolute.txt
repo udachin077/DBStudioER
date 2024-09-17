@@ -1,0 +1,12 @@
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\bin\Release\Application.Data.SqlServer.dll
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\bin\Release\Application.Data.SqlServer.pdb
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\bin\Release\base.dll
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\bin\Release\Microsoft.WindowsAPICodePack.dll
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\bin\Release\base.pdb
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\bin\Release\Microsoft.WindowsAPICodePack.Shell.xml
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\bin\Release\Microsoft.WindowsAPICodePack.xml
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\obj\Release\Application.Data.SqlServer.csprojAssemblyReference.cache
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\obj\Release\Application.Data.SqlServer.csproj.CopyComplete
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\obj\Release\Application.Data.SqlServer.dll
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\obj\Release\Application.Data.SqlServer.pdb

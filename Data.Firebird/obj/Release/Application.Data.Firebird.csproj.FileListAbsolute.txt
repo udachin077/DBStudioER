@@ -1,0 +1,15 @@
+D:\source\repos\DbStuduoER\Application.Data.Firebird\bin\Release\Firebird.dll
+D:\source\repos\DbStuduoER\Application.Data.Firebird\bin\Release\Firebird.pdb
+D:\source\repos\DbStuduoER\Application.Data.Firebird\bin\Release\base.dll
+D:\source\repos\DbStuduoER\Application.Data.Firebird\bin\Release\FirebirdSql.Data.FirebirdClient.dll
+D:\source\repos\DbStuduoER\Application.Data.Firebird\bin\Release\settings.dll
+D:\source\repos\DbStuduoER\Application.Data.Firebird\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll
+D:\source\repos\DbStuduoER\Application.Data.Firebird\bin\Release\Microsoft.WindowsAPICodePack.dll
+D:\source\repos\DbStuduoER\Application.Data.Firebird\bin\Release\settings.pdb
+D:\source\repos\DbStuduoER\Application.Data.Firebird\bin\Release\base.pdb
+D:\source\repos\DbStuduoER\Application.Data.Firebird\bin\Release\Microsoft.WindowsAPICodePack.Shell.xml
+D:\source\repos\DbStuduoER\Application.Data.Firebird\bin\Release\Microsoft.WindowsAPICodePack.xml
+D:\source\repos\DbStuduoER\Application.Data.Firebird\obj\Release\Application.Data.Firebird.csprojAssemblyReference.cache
+D:\source\repos\DbStuduoER\Application.Data.Firebird\obj\Release\Application.Data.Firebird.csproj.CopyComplete
+D:\source\repos\DbStuduoER\Application.Data.Firebird\obj\Release\Firebird.dll
+D:\source\repos\DbStuduoER\Application.Data.Firebird\obj\Release\Firebird.pdb

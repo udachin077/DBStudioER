@@ -1,0 +1,12 @@
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\bin\Debug\Application.Data.SqlServer.dll
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\bin\Debug\Application.Data.SqlServer.pdb
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\bin\Debug\base.dll
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\bin\Debug\base.pdb
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\obj\Debug\Application.Data.SqlServer.csproj.CopyComplete
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\obj\Debug\Application.Data.SqlServer.dll
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\obj\Debug\Application.Data.SqlServer.pdb
+D:\source\repos\DbStuduoER\Application.Data.SqlServer\obj\Debug\Application.Data.SqlServer.csprojAssemblyReference.cache

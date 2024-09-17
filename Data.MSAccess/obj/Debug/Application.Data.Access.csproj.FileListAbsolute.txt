@@ -1,0 +1,42 @@
+D:\source\repos\DbStuduo\Application.Data.MSAccess\bin\Debug\access.dll
+D:\source\repos\DbStuduo\Application.Data.MSAccess\bin\Debug\access.pdb
+D:\source\repos\DbStuduo\Application.Data.MSAccess\bin\Debug\base.dll
+D:\source\repos\DbStuduo\Application.Data.MSAccess\bin\Debug\settings.dll
+D:\source\repos\DbStuduo\Application.Data.MSAccess\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\source\repos\DbStuduo\Application.Data.MSAccess\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\source\repos\DbStuduo\Application.Data.MSAccess\bin\Debug\settings.pdb
+D:\source\repos\DbStuduo\Application.Data.MSAccess\bin\Debug\base.pdb
+D:\source\repos\DbStuduo\Application.Data.MSAccess\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\source\repos\DbStuduo\Application.Data.MSAccess\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\source\repos\DbStuduo\Application.Data.MSAccess\obj\Debug\Application.Data.Access.csprojAssemblyReference.cache
+D:\source\repos\DbStuduo\Application.Data.MSAccess\obj\Debug\Application.Data.Access.csproj.CopyComplete
+D:\source\repos\DbStuduo\Application.Data.MSAccess\obj\Debug\access.dll
+D:\source\repos\DbStuduo\Application.Data.MSAccess\obj\Debug\access.pdb
+D:\source\repos\DbStuduo — копия\Application.Data.MSAccess\bin\Debug\Access.dll
+D:\source\repos\DbStuduo — копия\Application.Data.MSAccess\bin\Debug\Access.pdb
+D:\source\repos\DbStuduo — копия\Application.Data.MSAccess\bin\Debug\base.dll
+D:\source\repos\DbStuduo — копия\Application.Data.MSAccess\bin\Debug\settings.dll
+D:\source\repos\DbStuduo — копия\Application.Data.MSAccess\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\source\repos\DbStuduo — копия\Application.Data.MSAccess\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\source\repos\DbStuduo — копия\Application.Data.MSAccess\bin\Debug\settings.pdb
+D:\source\repos\DbStuduo — копия\Application.Data.MSAccess\bin\Debug\base.pdb
+D:\source\repos\DbStuduo — копия\Application.Data.MSAccess\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\source\repos\DbStuduo — копия\Application.Data.MSAccess\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\source\repos\DbStuduo — копия\Application.Data.MSAccess\obj\Debug\Application.Data.Access.csprojAssemblyReference.cache
+D:\source\repos\DbStuduo — копия\Application.Data.MSAccess\obj\Debug\Application.Data.Access.csproj.CopyComplete
+D:\source\repos\DbStuduo — копия\Application.Data.MSAccess\obj\Debug\Access.dll
+D:\source\repos\DbStuduo — копия\Application.Data.MSAccess\obj\Debug\Access.pdb
+D:\source\repos\DbStuduoER\Application.Data.MSAccess\bin\Debug\Access.dll
+D:\source\repos\DbStuduoER\Application.Data.MSAccess\bin\Debug\Access.pdb
+D:\source\repos\DbStuduoER\Application.Data.MSAccess\bin\Debug\base.dll
+D:\source\repos\DbStuduoER\Application.Data.MSAccess\bin\Debug\settings.dll
+D:\source\repos\DbStuduoER\Application.Data.MSAccess\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\source\repos\DbStuduoER\Application.Data.MSAccess\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\source\repos\DbStuduoER\Application.Data.MSAccess\bin\Debug\settings.pdb
+D:\source\repos\DbStuduoER\Application.Data.MSAccess\bin\Debug\base.pdb
+D:\source\repos\DbStuduoER\Application.Data.MSAccess\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\source\repos\DbStuduoER\Application.Data.MSAccess\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\source\repos\DbStuduoER\Application.Data.MSAccess\obj\Debug\Application.Data.Access.csprojAssemblyReference.cache
+D:\source\repos\DbStuduoER\Application.Data.MSAccess\obj\Debug\Application.Data.Access.csproj.CopyComplete
+D:\source\repos\DbStuduoER\Application.Data.MSAccess\obj\Debug\Access.dll
+D:\source\repos\DbStuduoER\Application.Data.MSAccess\obj\Debug\Access.pdb

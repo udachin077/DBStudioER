@@ -1,0 +1,12 @@
+D:\source\repos\DbStuduoER\Application.Data.Msde\bin\Release\Msde.dll
+D:\source\repos\DbStuduoER\Application.Data.Msde\bin\Release\Msde.pdb
+D:\source\repos\DbStuduoER\Application.Data.Msde\bin\Release\base.dll
+D:\source\repos\DbStuduoER\Application.Data.Msde\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll
+D:\source\repos\DbStuduoER\Application.Data.Msde\bin\Release\Microsoft.WindowsAPICodePack.dll
+D:\source\repos\DbStuduoER\Application.Data.Msde\bin\Release\base.pdb
+D:\source\repos\DbStuduoER\Application.Data.Msde\bin\Release\Microsoft.WindowsAPICodePack.Shell.xml
+D:\source\repos\DbStuduoER\Application.Data.Msde\bin\Release\Microsoft.WindowsAPICodePack.xml
+D:\source\repos\DbStuduoER\Application.Data.Msde\obj\Release\Application.Data.Msde.csprojAssemblyReference.cache
+D:\source\repos\DbStuduoER\Application.Data.Msde\obj\Release\Application.Data.Msde.csproj.CopyComplete
+D:\source\repos\DbStuduoER\Application.Data.Msde\obj\Release\Msde.dll
+D:\source\repos\DbStuduoER\Application.Data.Msde\obj\Release\Msde.pdb

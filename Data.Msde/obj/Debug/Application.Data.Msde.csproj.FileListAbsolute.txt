@@ -1,0 +1,36 @@
+D:\source\repos\DbStuduo\Application.Data.Msde\bin\Debug\msde.dll
+D:\source\repos\DbStuduo\Application.Data.Msde\bin\Debug\msde.pdb
+D:\source\repos\DbStuduo\Application.Data.Msde\bin\Debug\base.dll
+D:\source\repos\DbStuduo\Application.Data.Msde\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\source\repos\DbStuduo\Application.Data.Msde\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\source\repos\DbStuduo\Application.Data.Msde\bin\Debug\base.pdb
+D:\source\repos\DbStuduo\Application.Data.Msde\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\source\repos\DbStuduo\Application.Data.Msde\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\source\repos\DbStuduo\Application.Data.Msde\obj\Debug\Application.Data.Msde.csprojAssemblyReference.cache
+D:\source\repos\DbStuduo\Application.Data.Msde\obj\Debug\Application.Data.Msde.csproj.CopyComplete
+D:\source\repos\DbStuduo\Application.Data.Msde\obj\Debug\msde.dll
+D:\source\repos\DbStuduo\Application.Data.Msde\obj\Debug\msde.pdb
+D:\source\repos\DbStuduo — копия\Application.Data.Msde\bin\Debug\Msde.dll
+D:\source\repos\DbStuduo — копия\Application.Data.Msde\bin\Debug\Msde.pdb
+D:\source\repos\DbStuduo — копия\Application.Data.Msde\bin\Debug\base.dll
+D:\source\repos\DbStuduo — копия\Application.Data.Msde\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\source\repos\DbStuduo — копия\Application.Data.Msde\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\source\repos\DbStuduo — копия\Application.Data.Msde\bin\Debug\base.pdb
+D:\source\repos\DbStuduo — копия\Application.Data.Msde\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\source\repos\DbStuduo — копия\Application.Data.Msde\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\source\repos\DbStuduo — копия\Application.Data.Msde\obj\Debug\Application.Data.Msde.csprojAssemblyReference.cache
+D:\source\repos\DbStuduo — копия\Application.Data.Msde\obj\Debug\Application.Data.Msde.csproj.CopyComplete
+D:\source\repos\DbStuduo — копия\Application.Data.Msde\obj\Debug\Msde.dll
+D:\source\repos\DbStuduo — копия\Application.Data.Msde\obj\Debug\Msde.pdb
+D:\source\repos\DbStuduoER\Application.Data.Msde\bin\Debug\Msde.dll
+D:\source\repos\DbStuduoER\Application.Data.Msde\bin\Debug\Msde.pdb
+D:\source\repos\DbStuduoER\Application.Data.Msde\bin\Debug\base.dll
+D:\source\repos\DbStuduoER\Application.Data.Msde\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\source\repos\DbStuduoER\Application.Data.Msde\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\source\repos\DbStuduoER\Application.Data.Msde\bin\Debug\base.pdb
+D:\source\repos\DbStuduoER\Application.Data.Msde\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\source\repos\DbStuduoER\Application.Data.Msde\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\source\repos\DbStuduoER\Application.Data.Msde\obj\Debug\Application.Data.Msde.csprojAssemblyReference.cache
+D:\source\repos\DbStuduoER\Application.Data.Msde\obj\Debug\Application.Data.Msde.csproj.CopyComplete
+D:\source\repos\DbStuduoER\Application.Data.Msde\obj\Debug\Msde.dll
+D:\source\repos\DbStuduoER\Application.Data.Msde\obj\Debug\Msde.pdb

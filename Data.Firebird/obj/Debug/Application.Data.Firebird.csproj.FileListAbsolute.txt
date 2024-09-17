@@ -1,0 +1,45 @@
+D:\source\repos\DbStuduo\Application.Data.Firebird\bin\Debug\firebird.dll
+D:\source\repos\DbStuduo\Application.Data.Firebird\bin\Debug\firebird.pdb
+D:\source\repos\DbStuduo\Application.Data.Firebird\bin\Debug\base.dll
+D:\source\repos\DbStuduo\Application.Data.Firebird\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\source\repos\DbStuduo\Application.Data.Firebird\bin\Debug\settings.dll
+D:\source\repos\DbStuduo\Application.Data.Firebird\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\source\repos\DbStuduo\Application.Data.Firebird\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\source\repos\DbStuduo\Application.Data.Firebird\bin\Debug\settings.pdb
+D:\source\repos\DbStuduo\Application.Data.Firebird\bin\Debug\base.pdb
+D:\source\repos\DbStuduo\Application.Data.Firebird\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\source\repos\DbStuduo\Application.Data.Firebird\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\source\repos\DbStuduo\Application.Data.Firebird\obj\Debug\Application.Data.Firebird.csprojAssemblyReference.cache
+D:\source\repos\DbStuduo\Application.Data.Firebird\obj\Debug\Application.Data.Firebird.csproj.CopyComplete
+D:\source\repos\DbStuduo\Application.Data.Firebird\obj\Debug\firebird.dll
+D:\source\repos\DbStuduo\Application.Data.Firebird\obj\Debug\firebird.pdb
+D:\source\repos\DbStuduo — копия\Application.Data.Firebird\bin\Debug\Firebird.dll
+D:\source\repos\DbStuduo — копия\Application.Data.Firebird\bin\Debug\Firebird.pdb
+D:\source\repos\DbStuduo — копия\Application.Data.Firebird\bin\Debug\base.dll
+D:\source\repos\DbStuduo — копия\Application.Data.Firebird\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\source\repos\DbStuduo — копия\Application.Data.Firebird\bin\Debug\settings.dll
+D:\source\repos\DbStuduo — копия\Application.Data.Firebird\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\source\repos\DbStuduo — копия\Application.Data.Firebird\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\source\repos\DbStuduo — копия\Application.Data.Firebird\bin\Debug\settings.pdb
+D:\source\repos\DbStuduo — копия\Application.Data.Firebird\bin\Debug\base.pdb
+D:\source\repos\DbStuduo — копия\Application.Data.Firebird\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\source\repos\DbStuduo — копия\Application.Data.Firebird\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\source\repos\DbStuduo — копия\Application.Data.Firebird\obj\Debug\Application.Data.Firebird.csprojAssemblyReference.cache
+D:\source\repos\DbStuduo — копия\Application.Data.Firebird\obj\Debug\Application.Data.Firebird.csproj.CopyComplete
+D:\source\repos\DbStuduo — копия\Application.Data.Firebird\obj\Debug\Firebird.dll
+D:\source\repos\DbStuduo — копия\Application.Data.Firebird\obj\Debug\Firebird.pdb
+D:\source\repos\DbStuduoER\Application.Data.Firebird\bin\Debug\Firebird.dll
+D:\source\repos\DbStuduoER\Application.Data.Firebird\bin\Debug\Firebird.pdb
+D:\source\repos\DbStuduoER\Application.Data.Firebird\bin\Debug\base.dll
+D:\source\repos\DbStuduoER\Application.Data.Firebird\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\source\repos\DbStuduoER\Application.Data.Firebird\bin\Debug\settings.dll
+D:\source\repos\DbStuduoER\Application.Data.Firebird\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\source\repos\DbStuduoER\Application.Data.Firebird\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\source\repos\DbStuduoER\Application.Data.Firebird\bin\Debug\settings.pdb
+D:\source\repos\DbStuduoER\Application.Data.Firebird\bin\Debug\base.pdb
+D:\source\repos\DbStuduoER\Application.Data.Firebird\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\source\repos\DbStuduoER\Application.Data.Firebird\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\source\repos\DbStuduoER\Application.Data.Firebird\obj\Debug\Application.Data.Firebird.csprojAssemblyReference.cache
+D:\source\repos\DbStuduoER\Application.Data.Firebird\obj\Debug\Application.Data.Firebird.csproj.CopyComplete
+D:\source\repos\DbStuduoER\Application.Data.Firebird\obj\Debug\Firebird.dll
+D:\source\repos\DbStuduoER\Application.Data.Firebird\obj\Debug\Firebird.pdb
