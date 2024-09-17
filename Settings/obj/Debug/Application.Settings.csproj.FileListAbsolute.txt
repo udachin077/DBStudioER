@@ -1,0 +1,13 @@
+D:\source\repos\DbStuduo\Application.Settings\bin\Debug\settings.dll
+D:\source\repos\DbStuduo\Application.Settings\bin\Debug\settings.pdb
+D:\source\repos\DbStuduo\Application.Settings\obj\Debug\settings.dll
+D:\source\repos\DbStuduo\Application.Settings\obj\Debug\settings.pdb
+D:\source\repos\DbStuduo — копия\Application.Settings\bin\Debug\settings.dll
+D:\source\repos\DbStuduo — копия\Application.Settings\bin\Debug\settings.pdb
+D:\source\repos\DbStuduo — копия\Application.Settings\obj\Debug\settings.dll
+D:\source\repos\DbStuduo — копия\Application.Settings\obj\Debug\settings.pdb
+D:\source\repos\DbStuduo — копия\Application.Settings\obj\Debug\Application.Settings.csprojAssemblyReference.cache
+D:\source\repos\DbStuduoER\Application.Settings\bin\Debug\settings.dll
+D:\source\repos\DbStuduoER\Application.Settings\bin\Debug\settings.pdb
+D:\source\repos\DbStuduoER\Application.Settings\obj\Debug\settings.dll
+D:\source\repos\DbStuduoER\Application.Settings\obj\Debug\settings.pdb

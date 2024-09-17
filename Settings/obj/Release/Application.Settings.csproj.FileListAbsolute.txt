@@ -1,0 +1,5 @@
+D:\source\repos\DbStuduoER\Application.Settings\bin\Release\settings.dll
+D:\source\repos\DbStuduoER\Application.Settings\bin\Release\settings.pdb
+D:\source\repos\DbStuduoER\Application.Settings\obj\Release\Application.Settings.csprojAssemblyReference.cache
+D:\source\repos\DbStuduoER\Application.Settings\obj\Release\settings.dll
+D:\source\repos\DbStuduoER\Application.Settings\obj\Release\settings.pdb

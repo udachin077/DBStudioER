@@ -1,0 +1,16 @@
+D:\source\repos\DbStuduoER\Application.Settings\bin\Debug\settings.dll
+D:\source\repos\DbStuduoER\Application.Settings\bin\Debug\settings.pdb
+D:\source\repos\DbStuduoER\Application.Settings\obj\Debug\settings.dll
+D:\source\repos\DbStuduoER\Application.Settings\obj\Debug\settings.pdb
+D:\source\repos\DbStuduoER\Settings\bin\Debug\settings.dll
+D:\source\repos\DbStuduoER\Settings\bin\Debug\settings.pdb
+D:\source\repos\DbStuduoER\Settings\bin\Debug\base.dll
+D:\source\repos\DbStuduoER\Settings\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\source\repos\DbStuduoER\Settings\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\source\repos\DbStuduoER\Settings\bin\Debug\base.pdb
+D:\source\repos\DbStuduoER\Settings\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\source\repos\DbStuduoER\Settings\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\source\repos\DbStuduoER\Settings\obj\Debug\Settings.csprojAssemblyReference.cache
+D:\source\repos\DbStuduoER\Settings\obj\Debug\Settings.csproj.CopyComplete
+D:\source\repos\DbStuduoER\Settings\obj\Debug\settings.dll
+D:\source\repos\DbStuduoER\Settings\obj\Debug\settings.pdb

@@ -1,0 +1,17 @@
+D:\source\repos\DbStuduoER\Style\bin\Release\Style.dll
+D:\source\repos\DbStuduoER\Style\bin\Release\Style.pdb
+D:\source\repos\DbStuduoER\Style\obj\Release\Button.baml
+D:\source\repos\DbStuduoER\Style\obj\Release\ComboBox.baml
+D:\source\repos\DbStuduoER\Style\obj\Release\DataGrid.baml
+D:\source\repos\DbStuduoER\Style\obj\Release\DatePicker.baml
+D:\source\repos\DbStuduoER\Style\obj\Release\Style_MarkupCompile.cache
+D:\source\repos\DbStuduoER\Style\obj\Release\Style_MarkupCompile.lref
+D:\source\repos\DbStuduoER\Style\obj\Release\GroupBox.baml
+D:\source\repos\DbStuduoER\Style\obj\Release\ListBox.baml
+D:\source\repos\DbStuduoER\Style\obj\Release\ScrollBar.baml
+D:\source\repos\DbStuduoER\Style\obj\Release\TabControl.baml
+D:\source\repos\DbStuduoER\Style\obj\Release\Style.g.resources
+D:\source\repos\DbStuduoER\Style\obj\Release\Style.Properties.Resources.resources
+D:\source\repos\DbStuduoER\Style\obj\Release\Style.csproj.GenerateResource.cache
+D:\source\repos\DbStuduoER\Style\obj\Release\Style.dll
+D:\source\repos\DbStuduoER\Style\obj\Release\Style.pdb
