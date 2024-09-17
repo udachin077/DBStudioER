@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{584C8234-F8DC-4951-8BB9-CBF821A8133A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>JournalManagmentStudio.Journal</RootNamespace>
+    <AssemblyName>jms</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>github-logo_icon-icons.com_73546.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework.Aero2" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="BindingProxy.cs" />
+    <Compile Include="Control\ProgressRing.xaml.cs">
+      <DependentUpon>ProgressRing.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TimeSpanConverter.cs" />
+    <Compile Include="ViewModel\ASUDScadaViewModel.cs" />
+    <Compile Include="ViewModel\WinAlViewModel.cs" />
+    <Page Include="View\ASUDScadaTable.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\AsuOdsMsdeTable.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Control\EditPageTools.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Control\Filter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\HorizonTable.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Control\ProgressRing.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WinAlTable.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Control\Window.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewModel\AsuOdsMsdeViewModel.cs" />
+    <Compile Include="ViewModel\HorizonViewModel.cs" />
+    <Compile Include="ViewModel\OnlineJournalViewModel.cs" />
+    <Compile Include="View\ASUDScadaTable.xaml.cs">
+      <DependentUpon>ASUDScadaTable.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AsuOdsMsdeTable.xaml.cs">
+      <DependentUpon>AsuOdsMsdeTable.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Filter.xaml.cs">
+      <DependentUpon>Filter.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\HorizonTable.xaml.cs">
+      <DependentUpon>HorizonTable.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WinAlTable.xaml.cs">
+      <DependentUpon>WinAlTable.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Window.xaml.cs">
+      <DependentUpon>Window.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="Control\EditPageTools.xaml.cs">
+      <DependentUpon>EditPageTools.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Base\Base.csproj">
+      <Project>{7177490f-39cf-4891-ae27-cc04a66e29cf}</Project>
+      <Name>Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Data.Firebird\Data.Firebird.csproj">
+      <Project>{E97EE272-310A-4333-BE5E-7BCF3E10096F}</Project>
+      <Name>Data.Firebird</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Data.MSAccess\Data.Access.csproj">
+      <Project>{5EE224C5-6028-4952-B85C-CC0D82FB4A7E}</Project>
+      <Name>Data.Access</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Data.Msde\Data.Msde.csproj">
+      <Project>{27ED18B6-D553-4E2A-A976-6F54EA91CEBB}</Project>
+      <Name>Data.Msde</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Settings\Settings.csproj">
+      <Project>{57D02195-250A-4274-AE46-0233B9B103CB}</Project>
+      <Name>Settings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Style\Style.csproj">
+      <Project>{912f50f0-8ea0-4be5-b45c-6a5740458f93}</Project>
+      <Name>Style</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="github-logo_icon-icons.com_73546.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound_1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound_2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound_3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound_5.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="weisses-rauschen.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /Y $(TargetDir)Firebird.dll $(TargetDir)Data\
+xcopy /Y $(TargetDir)Access.dll $(TargetDir)Data\
+xcopy /Y $(TargetDir)Msde.dll $(TargetDir)Data\
+xcopy /Y $(TargetDir)FirebirdSql.Data.FirebirdClient.dll $(TargetDir)Data\
+xcopy /Y $(TargetDir)base.dll $(TargetDir)Source\
+xcopy /Y $(TargetDir)settings.dll $(TargetDir)Source\
+xcopy /Y $(TargetDir)Style.dll $(TargetDir)Source\
+xcopy /Y $(TargetDir)Microsoft.WindowsAPICodePack.dll $(TargetDir)Source\
+xcopy /Y $(TargetDir)Microsoft.WindowsAPICodePack.Shell.dll $(TargetDir)Source\
+erase $(TargetDir)*.dll
+erase $(TargetDir)*.pdb
+erase $(TargetDir)*.xml</PostBuildEvent>
+  </PropertyGroup>
+</Project>

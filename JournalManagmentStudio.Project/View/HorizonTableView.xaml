@@ -1,0 +1,84 @@
+﻿<UserControl x:Class="JournalManagmentStudio.Project.View.HorizonTableView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:JournalManagmentStudio.Project.Control"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <DataGrid ItemsSource="{Binding MainTable, UpdateSourceTrigger=PropertyChanged}"         
+              SelectedItem="{Binding SelectedRow}"             
+              HorizontalContentAlignment="Center"
+              AutoGenerateColumns="False" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding address}" Header="Адрес" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding sensor}" Header="Сигнал" IsReadOnly="True"/>
+                <!--<DataGridCheckBoxColumn Binding="{Binding isopen}" Header="Состояние"/>-->
+                <!--<DataGridTextColumn Binding="{Binding term_name, ConverterCulture=ru, StringFormat=\{0:G\}}" Header="Терминал"/>
+            <DataGridTextColumn Binding="{Binding term_address, ConverterCulture=ru, StringFormat=\{0:G\}}" Header="Адрес терминала"/>-->
+                <DataGridTextColumn Binding="{Binding opentime, ConverterCulture=ru, StringFormat=\{0:G\}}" Header="Время открытия"/>
+                <DataGridTextColumn Binding="{Binding closetime, ConverterCulture=ru, StringFormat=\{0:G\}}" Header="Время закрытия"/>
+                <DataGridTextColumn Binding="{Binding prost_text}" Header="Продолжит."/>
+                <DataGridTextColumn Binding="{Binding create_operator}" Header="Оператор"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <WrapPanel Grid.Row="1" MinHeight="60" Background="{DynamicResource Window.Background}" TextElement.FontSize="14" TextElement.Foreground="White">
+            <WrapPanel.Resources>
+                <Style TargetType="{x:Type TextBox}">
+                    <Setter Property="Height" Value="25"/>
+                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                    <Setter Property="Foreground" Value="Black"/>
+                    <Setter Property="Background" Value="#FFDADADA"/>
+                    <Style.Triggers>
+                        <Trigger Property="Validation.HasError" Value="True">
+                            <Setter Property="Foreground" Value="Red"/>
+                            <Setter Property="BorderBrush" Value="Red"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </WrapPanel.Resources>
+            <StackPanel Margin="5">
+                <TextBlock Text="Адрес и сигнал"/>
+                <ComboBox MinWidth="200" ItemsSource="{Binding Sensors}" SelectedItem="{Binding SelectedSensor}" Foreground="White"/>
+            </StackPanel>
+            <StackPanel Margin="10,5,5,5">
+                <TextBlock Text="Дата"/>
+                <DatePicker Width="150" SelectedDate="{Binding Date, StringFormat=\{0:d\}}"/>
+            </StackPanel>
+            <StackPanel Margin="5">
+                <TextBlock Text="Время открытия"/>
+                <TextBox Width="150" MaxLength="5" TextChanged="TextBox_TextChanged">
+                    <TextBox.Text>
+                        <Binding Path="TimeOpen">
+                            <Binding.ValidationRules>
+                                <DataErrorValidationRule />
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+            </StackPanel>
+            <StackPanel Margin="5">
+                <TextBlock Text="Время закрытия"/>
+                <TextBox Width="150" MaxLength="5" TextChanged="TextBox_TextChanged">
+                    <TextBox.Text>
+                        <Binding Path="TimeClose">
+                            <Binding.ValidationRules>
+                                <DataErrorValidationRule />
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+            </StackPanel>
+            <StackPanel Margin="5">
+                <TextBlock Text="Оператор"/>
+                <TextBox Width="150" Text="{Binding Operator}" MaxLength="50"/>
+            </StackPanel>
+        </WrapPanel>
+    </Grid>
+</UserControl>

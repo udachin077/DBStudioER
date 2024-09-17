@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="JournalManagmentStudio.Project.Control.ToolsPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008">
+    <StackPanel Orientation="Horizontal">
+        <Button Command="{Binding DataContext.New, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}" Style="{DynamicResource MenuButton}" Tag="&#xE8F4;" Content="New" Foreground="Snow" ToolTip="Создать" Focusable="False" IsTabStop="False" />
+        <Button Command="{Binding DataContext.Open, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}" Style="{DynamicResource MenuButton}" Tag="&#xE838;" Content="Open" Foreground="Gold" ToolTip="Открыть" Focusable="False" IsTabStop="False" />
+        <!--<Button Command="{Binding DataContext.Save, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}" Style="{DynamicResource MenuButton}" Tag="&#xE74E;" Content="Save" Foreground="LightSkyBlue" ToolTip="Сохранить" />-->
+        <StackPanel Orientation="Horizontal">
+            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" />
+        </StackPanel>
+        <Button Command="{Binding Accept}" Style="{DynamicResource MenuButton}" Tag="&#xE8FB;" Content="Accept" Foreground="Lime" ToolTip="Применить" Focusable="False" IsTabStop="False"/>
+        <Button Command="{Binding Add}" Style="{DynamicResource MenuButton}" Tag="&#xE948;" Content="Add" Foreground="DodgerBlue" ToolTip="Добавить запись (Enter)" IsDefault="True" IsTabStop="False"/>
+        <Button Command="{Binding Delete}" Style="{DynamicResource MenuButton}" Tag="&#xE711;" Content="Delete" Foreground="Red" ToolTip="Удалить запись (Delete)" IsTabStop="False" Focusable="False"/>
+        <Button Command="{Binding Drop}" Style="{DynamicResource MenuButton}" Tag="&#xE74D;" Content="Clear" Foreground="Orange" ToolTip="Очистить" Focusable="False" IsTabStop="False" />
+    </StackPanel>
+</UserControl>

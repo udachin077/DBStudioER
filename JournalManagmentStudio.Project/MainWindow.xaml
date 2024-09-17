@@ -1,0 +1,97 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewmodel="clr-namespace:JournalManagmentStudio.Project.ViewModel"
+        xmlns:control="clr-namespace:JournalManagmentStudio.Project.Control"
+        xmlns:view="clr-namespace:JournalManagmentStudio.Project.View"
+        x:Class="JournalManagmentStudio.Project.Project.MainWindow"
+        mc:Ignorable="d"
+        Title="{Binding ProjectName, UpdateSourceTrigger=PropertyChanged}" MinHeight="550" MinWidth="800" Height="550" Width="800"
+        Style="{DynamicResource WindowStyle}" TextOptions.TextFormattingMode="Display" SnapsToDevicePixels="True">
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+    </Window.Resources>
+    <Grid Background="#FF1E1E1E">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid Panel.ZIndex="3"
+              Visibility="{Binding NewProjectButtonIsPressed, Converter={StaticResource BooleanToVisibilityConverter}, 
+              Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+            <Grid.Background>
+                <ImageBrush ImageSource="weisses-rauschen.jpg" Opacity="0.01"/>
+            </Grid.Background>
+            <control:NewProjectPage />
+        </Grid>
+
+        <Grid DataContext="{Binding SlaveViewModel, UpdateSourceTrigger=PropertyChanged}" Focusable="True">
+            <Grid.Style>
+                <Style TargetType="{x:Type Grid}">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding NewProjectButtonIsPressed, UpdateSourceTrigger=PropertyChanged}" Value="true">
+                            <Setter Property="Effect">
+                                <Setter.Value>
+                                    <BlurEffect Radius="25" RenderingBias="Quality"/>
+                                </Setter.Value>
+                            </Setter>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Grid.Style>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.InputBindings>
+                <!--<KeyBinding Command="{Binding Update}" CommandParameter="{Binding DataContext.TableIsUnlocked, 
+                RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}" Key="F5"/>-->
+                <!--<KeyBinding Command="{Binding Add}" CommandParameter="KeyBinding" Key="Enter"/>-->
+            </Grid.InputBindings>
+            
+            <control:ToolsPanel Background="#FF3E3E42"/>
+            
+            <ContentControl Content="{Binding DataContext, RelativeSource={RelativeSource Self}, UpdateSourceTrigger=PropertyChanged}" Grid.Row="1">
+                <ContentControl.Resources>
+                    <DataTemplate DataType="{x:Type viewmodel:AsuOdsMsdeViewModel}">
+                        <view:AsuOdsTableView/>
+                    </DataTemplate>
+                    <DataTemplate DataType="{x:Type viewmodel:HorizonViewModel}">
+                        <view:HorizonTableView/>
+                    </DataTemplate>
+                    <DataTemplate DataType="{x:Type viewmodel:WinAlViewModel}">
+                        <view:WinAlTableView/>
+                    </DataTemplate>
+                    <DataTemplate DataType="{x:Type viewmodel:ASUDScadaViewModel}">
+                        <view:ASUDScadaTableView/>
+                    </DataTemplate>
+                </ContentControl.Resources>
+            </ContentControl>
+        </Grid>
+        
+        <StatusBar Grid.Row="1" Height="24" VerticalAlignment="Bottom">
+            <StatusBar.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                </ItemsPanelTemplate>
+            </StatusBar.ItemsPanel>
+            <StatusBarItem HorizontalContentAlignment="Right">
+                <StackPanel Orientation="Horizontal" Margin="0,0,20,0">
+                    <TextBlock Text="Записей:" Margin="0,0,5,0"/>
+                    <TextBlock Text="{Binding SlaveViewModel.TableCount, UpdateSourceTrigger=PropertyChanged}"/>
+                </StackPanel>
+            </StatusBarItem>
+            <StatusBarItem Grid.Column="1">
+                <ResizeGrip/>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>

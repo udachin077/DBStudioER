@@ -1,0 +1,13 @@
+﻿<Window x:Class="config.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:config"
+        Style="{DynamicResource WindowStyle}" ResizeMode="NoResize" 
+        SizeToContent="WidthAndHeight" SnapsToDevicePixels="True" 
+        WindowStartupLocation="CenterScreen" TextOptions.TextFormattingMode="Display"
+        BorderThickness="1" BorderBrush="#FF3E3E42"
+        Title="Настройки">
+    <local:UserControl1 Background="#FF1E1E1E"/>
+</Window>

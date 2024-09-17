@@ -1,0 +1,20 @@
+﻿<Application x:Class="JournalManagmentStudio.Project.Project.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Control/Window.xaml"/>
+                <ResourceDictionary Source="/Style;component/ScrollBar.xaml"/>
+                <ResourceDictionary Source="/Style;component/ListBox.xaml"/>
+                <ResourceDictionary Source="/Style;component/DataGrid.xaml"/>
+                <ResourceDictionary Source="/Style;component/TabControl.xaml"/>
+                <ResourceDictionary Source="/Style;component/GroupBox.xaml"/>
+                <ResourceDictionary Source="/Style;component/Button.xaml"/>
+                <ResourceDictionary Source="/Style;component/ComboBox.xaml"/>
+                <ResourceDictionary Source="/Style;component/DatePicker.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
